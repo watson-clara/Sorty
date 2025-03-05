@@ -13,6 +13,8 @@ require_once __DIR__ . '/src/Comparers/ComparerInterface.php';
 require_once __DIR__ . '/src/Comparers/LineByLineComparer.php';
 require_once __DIR__ . '/src/Services/ComparisonService.php';
 
+require_once __DIR__ . '/vendor/autoload.php';
+
 use src\Comparers\LineByLineComparer;
 use src\IO\FileReader;
 use src\IO\FileWriter;

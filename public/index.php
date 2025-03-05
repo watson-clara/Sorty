@@ -3,12 +3,12 @@ declare(strict_types=1);
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
-use Comparers\LineByLineComparer;
-use IO\FileReader;
-use IO\FileWriter;
-use Logging\FileLogger;
-use Services\ComparisonService;
-use Exceptions\FileException;
+use src\Comparers\LineByLineComparer;
+use src\IO\FileReader;
+use src\IO\FileWriter;
+use src\Logging\FileLogger;
+use src\Services\ComparisonService;
+use src\Exceptions\FileException;
 
 $error = "";
 $success = "";
