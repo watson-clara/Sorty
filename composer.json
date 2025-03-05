@@ -1,0 +1,20 @@
+{
+    "name": "clarafication/sorty",
+    "description": "A tool for comparing text files and identifying unique lines in each file",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "src\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require-dev": {
+        "phpunit/phpunit": "^12.0"
+    }
+}
