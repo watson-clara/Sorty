@@ -1,6 +1,6 @@
 # Sorty: File Comparison Tool
 
-![PHP Version](https://img.shields.io/badge/PHP-8.1-blue)
+![PHP Version](https://img.shields.io/badge/PHP-8.1+-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
 
@@ -15,6 +15,10 @@ A high-performance tool for comparing lexicographically sorted text files to ide
 - **Dark Mode**: User-selectable theme preference
 - **Drag & Drop**: Modern file upload experience
 
+## Requirements
+
+- PHP 8.1 or higher
+- Composer
 
 ## Installation
 
